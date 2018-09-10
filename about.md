@@ -22,4 +22,4 @@ There are two audiences for the book:
 
 2. **Existing team members.** These are people who have been in the team for a
    while but who would like a reference for best practice. It also provides a
-   location to record new best practice as is is dicovered/evolved.
+   location to record new best practice as it is discovered/evolved.

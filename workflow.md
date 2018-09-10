@@ -18,8 +18,10 @@ Examples of stories:
 
 Some terminology:
 
-* A "spike" is a story which is timeboxed. In the example above, after a day of
-    work, the person doing the story stops and updates the rest of the team on
+* A "spike" is a story which is typically an investigation and is used when the 
+    team don't have enough information to tackle a story. This type of story 
+    will always be timeboxed. In the example above, after a day of work, 
+    the person doing the story stops and updates the rest of the team on 
     progress. This can be at the daily standup or via a written report on, e.g.,
     a GitHub issue.
 * A "chore" is a story where no *new* work is envisaged and are likely to take

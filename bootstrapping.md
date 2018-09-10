@@ -10,7 +10,7 @@ Learning](https://www.linkedin.com/learning/) organisational account.
 ## GitHub account
 
 The majority of our products are developed on GitHub. When you join the DevOps
-team you will be asked for your GitHub account name. You may wisht to use a
+team you will be asked for your GitHub account name. You may wish to use a
 personal account or create one named after your crsid.
 
 ### Add a SSH public key

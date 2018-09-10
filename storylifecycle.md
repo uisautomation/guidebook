@@ -12,7 +12,7 @@ make sure to update the story in both places.
 A story usually starts as a GitHub issue on a repository. Anyone (including
 users) can open GitHub issues and not all issues will become stories. The
 [Delivery Manager](roles.md#product-manager) selects which issues are
-"story-ready" and adds them to a sprint. A story-ready issue:
+"sprint-ready" and adds them to a sprint. A sprint-ready issue:
 
 * has a work estimate in days;
 * specifies the work to be done in a clear manner in the issue

@@ -109,7 +109,7 @@ rebase as it makes pulling your changes harder.
 ## Terminology
 
 This section briefly describes some of the terminology around git. It's not
-intend to be exhaustive.
+intended to be exhaustive.
 
 A **blob** is a set of bytes. It has a name which is the SHA1 hash of its
 contents.
