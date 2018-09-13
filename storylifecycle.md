@@ -7,17 +7,61 @@ merging.
 board on GitHub. When we say "move the story from X to Y on the project board",
 make sure to update the story in both places.
 
-## Github issue
+## GitHub issue
 
 A story usually starts as a GitHub issue on a repository. Anyone (including
 users) can open GitHub issues and not all issues will become stories. The
-[Delivery Manager](roles.md#product-manager) selects which issues are
-"sprint-ready" and adds them to a sprint. A sprint-ready issue:
+[Delivery Manager](roles.md#delivery-manager) selects which issues are
+"sprint-ready" and adds them to a sprint. A sprint-ready story:
 
-* has a work estimate in days;
-* specifies the work to be done in a clear manner in the issue
+1. specifies the work to be done in a clear manner in the issue
     description or in a subsequent comment;
-* specifies the criteria for judging if the story is "done".
+2. specifies the criteria for judging if the story is "done";
+3. has a size estimate in days.
+
+## The backlog refinement meeting
+
+An important tool for transforming a GitHub issue into a sprint-ready story
+is the Backlog refinement meeting. The aim of the meeting is to provide the 
+Delivery Manager with enough sprint-ready stories to be able to create a sprint.
+
+Typically one or two of these meetings is scheduled well before the next 
+sprint by the Delivery Manager. The Delivery Manager will select a number of
+issues that he judges to be candidates for the next sprint. The team will
+discuss each issue and attempt to document the story as per (1) & (2) in the
+previous list. If the team feel they don't yet know enough to estimate the 
+size, the Delivery Manager creates a [Spike](workflow.md#terminology) to investigate
+the issue further. Otherwise the team estimate the size and the GitHub issue 
+is now sprint-ready story.
+
+### Estimating the size of a story
+
+We use the technique of 
+[Planning poker](https://en.wikipedia.org/wiki/Planning_poker) to estimate the
+size of a story. In particular, we use a variant called "Effort x Complexity".
+For a given story, the team estimates the effort required to complete the story
+and the complexity of that story and multiplies the resulting numbers to obtain
+the size. Note the following:
+
+* The effort estimate should be given **as if you are extremely familiarly with
+doing exactly this kind of story**.
+
+* The following check-list can be used to help estimating complexity:
+
+  * Do I know how to do this story? (estimate=1)
+  * Does anyone in the team know how to do this story? (estimate=2)
+  * Does anyone in the world know how to do this story? (estimate=3)
+
+* When estimating effort it's important to include total time that the team
+spends coding, reviewing, and testing. While estimating, it can be useful 
+to keep the following "average story" in mind:
+
+  * A implements a feature.
+  * B reviews the feature - 2 changes are requested.
+  * A makes the code review changes.
+  * B deploys to an appropriate environment and tests the feature - 1 bug is found.
+  * A fixes the bug.
+
 
 ## Assignment
 
@@ -31,7 +75,7 @@ If you are doing the story, assign yourself to the issue on GitHub.
 The story is now being implemented.
 
 If you are doing the story, create a new branch to do your work on. This should,
-usually, be a branch from ``master``. Name your branch with the Github issue
+usually, be a branch from ``master``. Name your branch with the GitHub issue
 number and a summary of the story.
 
 ```bash
