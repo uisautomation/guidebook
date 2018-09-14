@@ -43,16 +43,16 @@ For a given story, the team estimates the effort required to complete the story
 and the complexity of that story and multiplies the resulting numbers to obtain
 the size. Note the following:
 
-* The effort estimate should be given **as if you are extremely familiarly with
+* The effort estimate should be given **as if you are extremely familiar with
 doing exactly this kind of story**.
 
-* The following check-list can be used to help estimating complexity:
+* The following check-list can be used to help estimate complexity:
 
   * Do I know how to do this story? (estimate=1)
   * Does anyone in the team know how to do this story? (estimate=2)
   * Does anyone in the world know how to do this story? (estimate=3)
 
-* When estimating effort it's important to include total time that the team
+* When estimating effort it's important to include the total time that the team
 spends coding, reviewing, and testing. While estimating, it can be useful 
 to keep the following "average story" in mind:
 
