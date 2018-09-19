@@ -24,5 +24,6 @@
   * [Product/component hierarchy](bestpractice/hierarchy.md)
   * [Web applications](bestpractice/webapps.md)
   * [Using git](bestpractice/git.md)
+  * [Using GitHub](bestpractice/github.md)
   * [Python](bestpractice/python.md)
   * [JavaScript](bestpractice/javascript.md)
