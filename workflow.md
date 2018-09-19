@@ -1,6 +1,6 @@
 # Working practices
 
-This section discusses how we, as a team, structure our work. EXAMPLE
+This section discusses how we, as a team, structure our work.
 
 ## Terminology
 
