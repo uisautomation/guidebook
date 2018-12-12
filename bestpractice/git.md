@@ -95,6 +95,11 @@ available to admins.
 Closes #1234
 ```
 
+Some more resources on git commit messages:
+
+* [Write good git commit
+    message](https://juffalow.com/other/write-good-git-commit-message)
+
 ### Rebasing
 
 Git [rebasing](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) is an
