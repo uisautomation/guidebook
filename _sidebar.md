@@ -27,3 +27,4 @@
   * [Using GitHub](bestpractice/github.md)
   * [Python](bestpractice/python.md)
   * [JavaScript](bestpractice/javascript.md)
+  * [API design](bestpractice/api.md)
