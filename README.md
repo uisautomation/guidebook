@@ -1,5 +1,7 @@
 # DevOps Guidebook
 
+> **This repository has been moved to https://gitlab.developers.cam.ac.uk/uis/devops/docs/guidebook/**
+
 This repository contains the source for the UIS [DevOps
 Guidebook](https://uisautomation.github.io/guidebook).
 
